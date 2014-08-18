@@ -14,7 +14,7 @@ Install `amqplib` and `when` using
 
 ```
 npm install --global amqplib
-npm install --global amqplib
+npm install --global when
 
 ```
 
