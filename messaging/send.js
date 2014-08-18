@@ -15,7 +15,7 @@
 var amqp = require('amqplib');
 var when = require('when');
 
-var AMQP_URI = "amqp://10.1.38.2";
+var AMQP_URI = "amqp://test:test+999@10.1.38.2:5672/test";
 
 amqp.connect(AMQP_URI).then(function(conn) {
   return when(conn.createChannel().then(function(ch) {
