@@ -15,7 +15,9 @@
 var amqp = require('amqplib');
 var when = require('when');
 
-amqp.connect('amqp://localhost').then(function(conn) {
+var AMQP_URI = "amqp://10.1.38.2";
+
+amqp.connect(AMQP_URI).then(function(conn) {
   return when(conn.createChannel().then(function(ch) {
     var q = 'hello';
     var msg = 'Hello World!';
