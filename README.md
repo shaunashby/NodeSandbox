@@ -2,7 +2,13 @@
 
 Sandbox for playing with nodeJS.
 
-# Running the examples
+# Running the Examples
+
+Run them using `node ./<script.js>`.
+
+## Messaging Examples
+
+In the `messaging` sub-directory there are examples for a simple "hello" send to queue/receive from queue.
 
 Install `amqplib` and `when` using
 
